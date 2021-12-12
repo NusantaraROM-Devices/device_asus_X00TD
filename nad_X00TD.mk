@@ -17,6 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit Nusantara build
 NAD_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_X00TD
