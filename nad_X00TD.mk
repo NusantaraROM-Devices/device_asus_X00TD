@@ -15,6 +15,9 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit Nusantara build
+NAD_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_X00TD
 PRODUCT_DEVICE := X00TD
